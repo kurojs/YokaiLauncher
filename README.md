@@ -38,10 +38,10 @@ You can download from [GitHub Releases](https://github.com/kurojs/YokaiLauncher/
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `Yokai Launcher-setup-VERSION.exe` |
-| macOS x64 | `Yokai Launcher-setup-VERSION-x64.dmg` |
-| macOS arm64 | `Yokai Launcher-setup-VERSION-arm64.dmg` |
-| Linux x64 | `Yokai Launcher-setup-VERSION.AppImage` |
+| Windows x64 | `Yokai-Launcher-setup-VERSION.exe` |
+| macOS x64 | `Yokai-Launcher-setup-VERSION-x64.dmg` |
+| macOS arm64 | `Yokai-Launcher-setup-VERSION-arm64.dmg` |
+| Linux x64 | `Yokai-Launcher-setup-VERSION.AppImage` |
 
 ## Development
 
