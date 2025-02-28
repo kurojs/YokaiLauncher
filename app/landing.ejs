@@ -1,0 +1,197 @@
+<div id="landingContainer" style="display: none;">
+    <div id="upper">
+        <button id="configuracion"></button>  
+        <a id="shop" href="https://yokaihardcore.tebex.io/" target="_blank"></a>
+        <button id="song"></button>
+        <button id="news"></button> 
+        <div id="left">
+        </div>
+        <div id="content">
+        </div>
+        <div id="right">
+            <div id="rightContainer">
+                <div id="user_content">
+                    <span id="user_text"><%- lang('landing.usernamePlaceholder') %></span>
+                    <div id="avatarContainer">
+                        <button id="avatarOverlay"><%- lang('landing.usernameEditButton') %></button>
+                    </div>
+                </div>
+                <div id="mediaContent" style="display: none;">
+                    <div id="internalMedia">
+                        <div class="mediaContainer" id="settingsMediaContainer">
+                            <button class="mediaButton" id="settingsMediaButton">
+                                <svg id="settingsSVG" class="mediaSVG" viewBox="0 0 141.36 137.43">
+                                    <path d="M70.70475616319865,83.36934004916053 a15.320781354859122,15.320781354859122 0 1 1 14.454501310561755,-15.296030496450625 A14.850515045097694,14.850515045097694 0 0 1 70.70475616319865,83.36934004916053 M123.25082856443602,55.425620905968366 h-12.375429204248078 A45.54157947163293,45.54157947163293 0 0 0 107.21227231573047,46.243052436416285 l8.613298726156664,-9.108315894326587 a9.727087354538993,9.727087354538993 0 0 0 0,-13.167456673319956 l-3.465120177189462,-3.6631270444574313 a8.489544434114185,8.489544434114185 0 0 0 -12.375429204248078,0 l-8.613298726156664,9.108315894326587 A40.442902639482725,40.442902639482725 0 0 0 81.99114759747292,25.427580514871032 V12.532383284044531 a9.108315894326587,9.108315894326587 0 0 0 -8.811305593424633,-9.306322761594556 h-4.950171681699231 a9.108315894326587,9.108315894326587 0 0 0 -8.811305593424633,9.306322761594556 v12.895197230826497 a40.17064319698927,40.17064319698927 0 0 0 -9.331073620003052,4.0591407789933704 l-8.613298726156664,-9.108315894326587 a8.489544434114185,8.489544434114185 0 0 0 -12.375429204248078,0 L25.58394128451018,23.967279868769744 a9.727087354538993,9.727087354538993 0 0 0 0,13.167456673319956 L34.19724001066683,46.243052436416285 a45.07131316187151,45.07131316187151 0 0 0 -3.6631270444574313,9.083565035918088 h-12.375429204248078 a9.083565035918088,9.083565035918088 0 0 0 -8.811305593424633,9.306322761594556 v5.197680265784193 a9.108315894326587,9.108315894326587 0 0 0 8.811305593424633,9.306322761594556 h11.979415469712139 a45.69008462208391,45.69008462208391 0 0 0 4.0591407789933704,10.642869115653347 l-8.613298726156664,9.108315894326587 a9.727087354538993,9.727087354538993 0 0 0 0,13.167456673319956 l3.465120177189462,3.6631270444574313 a8.489544434114185,8.489544434114185 0 0 0 12.375429204248078,0 l8.613298726156664,-9.108315894326587 a40.49240435629971,40.49240435629971 0 0 0 9.331073620003052,4.0591407789933704 v12.895197230826497 a9.083565035918088,9.083565035918088 0 0 0 8.811305593424633,9.306322761594556 h4.950171681699231 A9.083565035918088,9.083565035918088 0 0 0 81.99114759747292,123.68848839660077 V110.79329116577425 a40.78941465720167,40.78941465720167 0 0 0 9.331073620003052,-4.0591407789933704 l8.613298726156664,9.108315894326587 a8.489544434114185,8.489544434114185 0 0 0 12.375429204248078,0 l3.465120177189462,-3.6631270444574313 a9.727087354538993,9.727087354538993 0 0 0 0,-13.167456673319956 l-8.613298726156664,-9.108315894326587 a45.665333763675406,45.665333763675406 0 0 0 4.034389920584874,-10.642869115653347 h12.004166328120636 a9.108315894326587,9.108315894326587 0 0 0 8.811305593424633,-9.306322761594556 v-5.197680265784193 a9.083565035918088,9.083565035918088 0 0 0 -8.811305593424633,-9.306322761594556 " id="svg_3" class=""/>
+                                </svg>
+                                <div style="display: none;" id="settingsTooltip"><%- lang('landing.settingsTooltip') %></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mediaDivider"></div>
+                    <div id="externalMedia">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="lower">
+        <div id="left">
+            <div class="bot_wrapper">
+                <div id="content">
+                    <div class="bot_divider" style="display: none;"></div>
+                    <div id="mojangStatusWrapper" style="display: none;">
+                        <span class="bot_label"><%- lang('landing.mojangStatus') %></span>
+                        <span id="mojang_status_icon">&#8226;</span>
+                        <div id="mojangStatusTooltip">
+                            <div id="mojangStatusTooltipTitle"><%- lang('landing.mojangStatusTooltipTitle') %></div>
+                            <div id="mojangStatusEssentialContainer">
+                                <!-- Essential Mojang services are populated here. -->
+                            </div>
+                            <div id="mojangStatusNEContainer">
+                                <div class="mojangStatusNEBar"></div>
+                                <div id="mojangStatusNETitle"><%- lang('landing.mojangStatusNETitle') %></div>
+                                <div class="mojangStatusNEBar"></div>
+                            </div>
+                            <div id="mojangStatusNonEssentialContainer">
+                                <!-- Non Essential Mojang services are populated here. -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="center">
+            <div class="bot_wrapper">
+                <div id="launch_content">
+                    <button id="launch_button"><%- lang('landing.launchButton') %></button>
+                    <div style="display: none;" class="bot_divider"></div>
+                    <button style="display: none;" id="server_selection_button" class="bot_label"><%- lang('landing.launchButtonPlaceholder') %></button>
+                </div>
+                <div id="launch_details">
+                    <div id="launch_details_left">
+                        <span id="launch_progress_label">0%</span>
+                        <div class="bot_divider" style="display: none;"></div>
+                    </div>
+                    <div id="launch_details_right">
+                        <progress id="launch_progress" value="22" max="100"></progress>
+                        <span id="launch_details_text" class="bot_label"><%- lang('landing.launchDetails') %></span>
+                    </div>
+                </div>
+            </div>
+           <div class="bot_wrapper">
+                <div id="content">
+                    <button id="newsButton" style="display: none;"> 
+                        <!--<img src="assets/images/icons/arrow.svg" id="newsButtonSVG"/>-->
+                        <div id="newsButtonAlert" style="display: none;"></div>
+                        <svg id="newsButtonSVG" viewBox="0 0 24.87 13.97">
+                            <defs>
+                                <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;}</style>
+                            </defs>
+                            <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
+                        </svg>
+                        &#10;<span id="newsButtonText"><%- lang('landing.newsButton') %></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="right"> 
+        </div>
+    </div>
+    <div id="canciones">
+        <button id="cerrarsong" style="background-image: url('assets/images/upload.png'); background-size: cover;"></button>
+        <div id="video-container"  style="position: relative; width: 1000px; height: 562px; background: rgba(0, 0, 0, 0)">
+            <p style="font-size: 25px; position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white;">Yokai Hardcore</p>
+            <video id="randomVideo" autoplay controls style="position: absolute; top: 38%; left: 50%; transform: translate(-50%, -50%); max-width: 40%; max-height: 40%; border-radius: 15px;">
+            </video>
+            <p id="descripcion" style="position: absolute; top: 65%; left: 50%; transform: translateX(-50%); color: white; text-align: center;"></p>
+            <button id="prevButton" style="cursor: pointer; top: 40%; position: absolute; left: 10px; width: 50px; height: 50px; background: none; background-image: url('assets/images/izquierda.png'); background-size: cover; background-position: center; background-repeat: no-repeat; border: none; outline: none;"></button>
+            <button id="nextButton" style="cursor: pointer; top: 40%; position: absolute; right: 10px; width: 50px; height: 50px; background: none; background-image: url('assets/images/derecha.png'); background-size: cover; background-position: center; background-repeat: no-repeat; border: none; outline: none;"></button>
+            <p id="videoCounter" style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); color: white;"></p>
+            <canvas id="audioSpectrum" style="z-index: -100; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></canvas>
+        </div>  
+    </div>
+    <div id="newsContainer">
+        <button id="cerrarnews" style="background-image: url('assets/images/upload.png'); background-size: cover;"></button>
+        <!-- Social Media -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vaakash/socializer@f4c4e9/css/socializer.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+   <!-- Social Media -->
+    <div class="social-media-center" id="socialMedia">
+        <a href="https://discord.com/invite/xRed77nYk7" target="_blank" class="socializer-icon discord"><i class="fab fa-discord"></i></a>
+        <a href="https://www.youtube.com/@kuromy888" target="_blank" class="socializer-icon youtube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.twitch.tv/kuromy888" target="_blank" class="socializer-icon twitch"><i class="fab fa-twitch"></i></a>
+        <a href="https://www.tiktok.com/@kuromy888" target="_blank" class="socializer-icon tiktok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://x.com/Kuromy888" target="_blank" class="socializer-icon twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div id="noticiasscreen">
+        <div class="iframe-wrapper">
+            <!-- Iframe de Noticias -->
+            <iframe class="iframe-container" id="iframeNoticias"></iframe>
+            
+            <!-- Iframe de Créditos, inicialmente oculto -->
+            <iframe class="iframe-container" id="iframeCreditos" style="display: none;"></iframe>
+        </div>
+        <!-- Botón para cambiar entre Créditos y Noticias -->
+        <button id="toggleCreditos">Créditos</button>
+    </div>
+    </div>
+    <div id="noticias" style="display: none;">
+        <div id="newsContent" article="-1" style="display: none;">
+            <div id="newsStatusContainer">
+                <div id="newsStatusContent">
+                    <div id="newsTitleContainer">
+                        <a id="newsArticleTitle" href="#">Lorem Ipsum</a>
+                    </div>
+                    <div id="newsMetaContainer">
+                        <div id="newsArticleDateWrapper">
+                            <span id="newsArticleDate">Mar 15, 44 BC, 9:14 AM</span>
+                        </div>
+                        <div id="newsArticleAuthorWrapper">
+                            <span id="newsArticleAuthor">by Cicero</span>
+                        </div>
+                        <a href="#" id="newsArticleComments">0 Comments</a>
+                    </div>
+                </div>
+                <div id="newsNavigationContainer">
+                    <button id="newsNavigateLeft">
+                        <svg id="newsNavigationLeftSVG" viewBox="0 0 24.87 13.97">
+                            <defs>
+                                <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;transition: 0.25s ease;}</style>
+                            </defs>
+                            <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
+                        </svg>
+                    </button>
+                    <span id="newsNavigationStatus"><%- lang('landing.newsNavigationStatus', { currentPage: 1, totalPages: 1 }) %></span>
+                    <button id="newsNavigateRight">
+                        <svg id="newsNavigationRightSVG" viewBox="0 0 24.87 13.97">
+                            <defs>
+                                <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;transition: 0.25s ease;}</style>
+                            </defs>
+                            <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="newsArticleContainer">
+                <div id="newsArticleContent">
+                    <div id="newsArticleContentScrollable">
+                        <!-- Article Content -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="newsErrorContainer">
+            <div id="newsErrorLoading">
+                <span id="nELoadSpan" class="newsErrorContent"><%- lang('landing.newsErrorLoadSpan') %></span>
+            </div>
+            <div id="newsErrorFailed" style="display: none;">
+                <span id="nEFailedSpan" class="newsErrorContent"><%- lang('landing.newsErrorFailedSpan') %></span>
+                <button id="newsErrorRetry"><%- lang('landing.newsErrorRetryButton') %></button>
+            </div>
+            <div id="newsErrorNone" style="display: none;">
+                <span id="nENoneSpan" class="newsErrorContent"><%- lang('landing.newsErrorNoneSpan') %></span>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/scripts/landing.js"></script>
+</div>

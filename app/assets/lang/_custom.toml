@@ -1,0 +1,20 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "Yokai Launcher"
+
+[ejs.landing]
+mediaGitHubURL = ""
+mediaTwitterURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = ""
+
+[ejs.settings]
+sourceGithubLink = ""
+supportLink = ""
+
+[ejs.welcome]
+welcomeHeader = ""
+welcomeDescription = ""
+welcomeDescCTA = ""
