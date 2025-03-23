@@ -3884,6 +3884,7 @@ input:checked + .toggleSwitchSlider:before {
 /*Boton para canciones. */
 #song {
     background: none;
+    cursor: pointer;
     position: absolute;
     top: 230px;
     left: 10;

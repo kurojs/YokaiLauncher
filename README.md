@@ -96,7 +96,7 @@ For support or more details, please refer to the [original repository](https://g
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).  
+This project is licensed under the [MIT License](https://github.com/kurojs/YokaiLauncher/blob/master/LICENSE.txt).  
 Original copyright (c) 2017-2024 [Daniel D. Scalzi](https://github.com/dscalzi).  
 
 ---
